@@ -1,5 +1,3 @@
-package programs;
-
 import com.battle.heroes.army.Unit;
 import com.battle.heroes.army.programs.Edge;
 import com.battle.heroes.army.programs.UnitTargetPathFinder;
