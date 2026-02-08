@@ -1,3 +1,5 @@
+package programs;
+
 import com.battle.heroes.army.Unit;
 import com.battle.heroes.army.programs.SuitableForAttackUnitsFinder;
 
