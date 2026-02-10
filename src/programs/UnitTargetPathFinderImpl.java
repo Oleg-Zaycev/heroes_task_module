@@ -11,8 +11,8 @@ public class UnitTargetPathFinderImpl implements UnitTargetPathFinder {
     public List<Edge> getTargetPath(Unit attackUnit, Unit targetUnit, List<Unit> existingUnitList) {
 
         // Размеры игрового поля
-        private static final int WIDTH = 27;
-        private static final int HEIGHT = 21;
+        final int WIDTH = 27;
+        final int HEIGHT = 21;
         // 1. Создаём карту препятствий
         boolean[][] blocked = new boolean[WIDTH][HEIGHT];
         for (Unit unit : existingUnitList) {
